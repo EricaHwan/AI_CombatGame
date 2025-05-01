@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Combat Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameOver" class="hidden">
+            <h2 id="gameResult"></h2>
+            <button onclick="restartGame()">重新開始</button>
+        </div>
+    </div>
+    
+    <!-- 在這裡設置你的Gemini API密鑰 -->
+    <script>
+        window.GEMINI_API_KEY = 'AIzaSyDAfQETJ6sBb-UCiY6C0Titisic3IstS6w';
+    </script>
+    <script src="game.js"></script>
+</body>
+</html> 
